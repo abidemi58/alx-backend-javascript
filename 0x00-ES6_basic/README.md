@@ -38,7 +38,9 @@ createReportObject should return an object containing the key allEmployees and a
 allEmployees is a key that maps to an object containing the department name and a list of all the employees in that department. If you’re having trouble, use the spread syntax.
 
 The method property receives employeesList and returns the number of departments. I would suggest suggest thinking back to the ES6 method property syntax.
+
 13. Write a function named createIteratorObject, that will take into argument a report Object created with the previous function createReportObject.
 
 This function will return an iterator to go through every employee in every department.
+
 14. Finally, write a function named iterateThroughObject. The function’s parameter reportWithIterator is the return value from createIteratorObject.
